@@ -2,9 +2,7 @@
 
 Aquí irá una introducción del curso bien bonita :D
 
-<p align="center">
-  <img src="assets/gophers-aprendiendo.png" style="max-width:80%;max-height:80%;" />
-</p>
+![Imagen de gophers aprendiendo](assets/gophers-aprendiendo.png)
 
 ## Requisitos
 
@@ -18,9 +16,7 @@ Ahora que vamos a iniciarnos como programadoras de Go, es muy importante que ten
 
 Este es un gopher que creamos nosotras. Se llama Panchita.
 
-<p align="center">
-  <img src="assets/panchita.png" style="max-width:30%;max-height:30%;" />
-</p>
+![Imagen de Panchita](assets/panchita.png)
 
 Corre a la página de [gopherize.me](https://gopherize.me/), y crea a tu propio gopher. Aquí te esperará Panchita con su cafesito.
 
