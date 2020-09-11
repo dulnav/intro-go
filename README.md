@@ -57,3 +57,5 @@ Haz click [aquí](arbol/README.md) para comenzar la actividad extra.
 ## Enlaces
 
 Si aún quieres aprender mas, visita la [guía oficial de Go](https://gotour-es.appspot.com/#1). Es un poco mas avanzado. ¡Pero no imposible!
+
+_Ilustraciones de [Renee French](http://reneefrench.blogspot.com.au/) y [Ashley McNamara](https://github.com/ashleymcnamara/gophers)_.
