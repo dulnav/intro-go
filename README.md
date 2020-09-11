@@ -13,9 +13,9 @@ Las computadoras nos entienden cuando utilizamos un lenguaje de programación. E
 - Computadora, tablet o smart phone.
 - Conexión a internet.
 
-## Actividades
+## Reto
 
-Para todas las actividades usaremos el "Go playground". Este es un programa que nos permite correr programas que escribas tu, en un navegador sin la necesidad de instalar nada en tu computadora, tablet o teléfono.
+Para todas las actividades del reto usaremos el "Go playground". Este es un programa que nos permite correr programas que escribas tu, en un navegador sin la necesidad de instalar nada en tu computadora, tablet o teléfono.
 
 Para usarlo sigue estas instrucciones:
 
@@ -28,9 +28,9 @@ Ahora en la parte amarilla cambia la frase "¡Hola a todas!" por lo que tu quier
 ![Imagen de Go Playground señalando botón "Share"](assets/go-playground-share.png)
 Una vez que copies el enlace que te salió a lado del botón "Share", abre una ventana nueva en tu navegador y verás como se abre nuevamente el programa que hiciste previamente.
 
-### Variables y funciones
+### Crea una calculadora
 
-Esta es la actividad principal del reto. Crearás una calculadora y al mismo tiempo aprenderás sobre las variables y las funciones que son básicas para cualquier programa.
+Esta es la actividad principal del reto. Crearás una calculadora y al mismo tiempo aprenderás sobre las variables y las funciones que son los fundamentos de cualquier programa.
 
 Haz click [aquí](calculadora/README.md) para empezar el reto de la calculadora. ¡Suerte!
 
