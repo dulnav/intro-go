@@ -47,11 +47,12 @@ Este es un gopher que creamos nosotras. Se llama Panchita.
 
 Corre a la página de [gopherize.me](https://gopherize.me/), y crea a tu propio gopher. Aquí te esperará Panchita con su cafesito.
 
-### Condicionales y bucles (actividad extra no obligatoria)
+<!-- ### Condicionales y bucles (actividad extra no obligatoria)
 
 Si terminaste los retos anteriores y te quedaste con ganas de aprender más, checa este reto para aprender sobre condicionales y bucles. Al final podrás ver lo que se puede crear con los cuatro elementos que se han aprendido.
 
 Haz click [aquí](arbol/README.md) para comenzar la actividad extra.
+-->
 
 ## Enlaces
 

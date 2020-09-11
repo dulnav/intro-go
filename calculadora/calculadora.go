@@ -1,25 +1,23 @@
 package main
 
-// Agregare comentarios que expliquen al código.
-
 func main() {
 
-	resultado := suma(8, 2)
-	println(resultado)
+	resultadoFuncion := suma(8, 2)
+	println(resultadoFuncion)
 
-	resultado = resta(10, 5)
-	println(resultado)
+	resultadoFuncion = multiplica(165, 57)
+	println(resultadoFuncion)
 
 }
 
-func suma(primerNumero, segundoNumero int) (resultado int) {
-	resultado = primerNumero + segundoNumero
+func suma(primerNumero, segundoNumero int) int {
+	resultado := primerNumero + segundoNumero
 
 	return resultado
 }
 
-func resta(primerNumero, segundoNumero int) (resultado int) {
-	resultado = primerNumero - segundoNumero
+func multiplica(primerNumero, segundoNumero int) int {
+	resultado := primerNumero * segundoNumero
 
 	return resultado
 }
