@@ -1,48 +1,43 @@
 package main
 
-// Voy a limpiar este código para que sea mas fácil de entender y
-// le agregaré una estrellita hasta arriba :)
-
 func main() {
-	imprimirArbolDeNavidad(5)
+	construirArbolDeNavidad()
 }
 
-func imprimirArbolDeNavidad(altura int) {
-	if altura < 1 {
-		return
-	}
+func construirArbolDeNavidad() {
 
-	ancho := altura*2 - 1
+	altura := 5
+
+	longitudEspacios := calcularLongitud(altura)
+
+	imprimirLinea(longitudEspacios, 1, `*`)
 
 	for i := 1; i <= altura; i++ {
-		salida := 0
-		if i == 1 {
-			salida = 1
+		longitudCaracter := calcularLongitud(i)
 
-		} else {
-			salida = i*2 - 1
-
-		}
-
-		construirArbol(ancho-salida/2, salida, "o")
+		imprimirLinea(longitudEspacios-longitudCaracter/2, longitudCaracter, "^")
 
 	}
 
-	construirArbol(ancho, 1, `"`)
+	imprimirLinea(longitudEspacios, 1, `"`)
 
 }
 
-func construirArbol(espacio int, cuenta int, caracter string) {
-	imprimeEspacio := ""
-	imprimeCaracter := ""
+func imprimirLinea(espacio int, caracter int, elemento string) {
+	espacios := ""
+	caracteres := ""
 
 	for i := 0; i < espacio; i++ {
-		imprimeEspacio += " "
+		espacios += " "
 	}
 
-	for i := 0; i < cuenta; i++ {
-		imprimeCaracter += caracter
+	for i := 0; i < caracter; i++ {
+		caracteres += elemento
 	}
 
-	println(imprimeEspacio, imprimeCaracter)
+	println(espacios, caracteres)
+}
+
+func calcularLongitud(altura int) int {
+	return altura*2 - 1
 }
