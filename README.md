@@ -4,7 +4,11 @@ En este reto aprenderemos sobre los fundamentos de la programación.
 
 Para poder comunicarnos con las computadoras y que estas sigan las instrucciones que nosotras les damos, es necesario hablar en el idioma de las computadoras.
 
-Las computadoras nos entienden cuando utilizamos un lenguaje de programación. Existen muchísimos lenguajes de programación (¡como 700! :scream:), pero en esta ocasión solo aprenderemos uno, Go. Existen muchas apps y programas escritos con Go. ¡Como Uber!
+Las computadoras nos entienden cuando utilizamos un lenguaje de programación. Existen muchísimos lenguajes de programación (¡como 700! :scream:), pero en esta ocasión solo aprenderemos uno, Go, que fue creado en el 2009 por Google y se le conoce entre los cuates como Golang :wink:.
+
+Existen muchas apps y programas escritos con Go, algunos ejemplos de compañías interesantes que usan Go son: Netflix, Uber, Facebook, Twitter, Dropbox, entre otros.
+
+Go es un proyecto de código abierto, esto es llamado "Open Source Software" y se refiere a un tipo de software donde existe una colaboración de muchas personas para mejorar el programa, además del hecho de acceder a este de forma gratuita.
 
 ![Imagen de gophers aprendiendo](assets/gophers-aprendiendo.png)
 
@@ -13,9 +17,11 @@ Las computadoras nos entienden cuando utilizamos un lenguaje de programación. E
 - Computadora, tablet o smart phone.
 - Conexión a internet.
 
-## Reto
+## Reto crea una calculadora
 
-Para todas las actividades del reto usaremos el "Go playground". Este es un programa que nos permite correr programas que escribas tu, en un navegador sin la necesidad de instalar nada en tu computadora, tablet o teléfono.
+### Antes de iniciar conozcamos "Go playground"
+
+Para todas las actividades del reto usaremos el "Go playground",  que es un ambiente (sito web) el cual nos permite correr el programa conformado por las líneas de código que escribirás tú, a través en un navegador y sin la necesidad de instalar nada en tu computadora, tablet o teléfono.
 
 Para usarlo sigue estas instrucciones:
 
@@ -28,7 +34,7 @@ Ahora en la parte amarilla cambia la frase "¡Hola a todas!" por lo que tu quier
 ![Imagen de Go Playground señalando botón "Share"](assets/go-playground-share.png)
 Una vez que copies el enlace que te salió al lado del botón "Share", abre una ventana nueva en tu navegador y verás como se abre nuevamente el programa que hiciste previamente.
 
-### Crea una calculadora
+### ¡Manos a la obra!
 
 Esta es la actividad principal del reto. Crearás una calculadora y al mismo tiempo aprenderás sobre las variables y las funciones que son los fundamentos de cualquier programa.
 
@@ -45,7 +51,7 @@ Este es un gopher que creamos nosotras. Se llama Panchita.
 
 ![Imagen de Panchita](assets/panchita.png)
 
-Corre a la página de [gopherize.me](https://gopherize.me/), y crea a tu propio gopher. Aquí te esperará Panchita con su cafesito.
+Apresúrate a entrar a la página de [gopherize.me](https://gopherize.me/), y crea a tu propio gopher. Aquí te esperará Panchita con su cafesito.
 
 ## Enlaces
 
