@@ -4,9 +4,9 @@ Al final del reto habrás escrito un programa para una calculadora sencilla que 
 
 ## Variables
 
-Absolutamente todos los programas de mundo usan variables. Son una parte básica de la programación.
+Absolutamente todos los programas del mundo usan variables. Son una parte básica de la programación.
 
-Una variable es un nombre que se le da a un valor. Ese valor puede ser un número, una palabra o lo que tu quieras.
+Una variable es un nombre que se le da a un valor. Ese valor puede ser un número, una palabra o lo que tú quieras.
 
 ```go
 numero := 3
@@ -46,23 +46,23 @@ Haz click en este [enlace](https://play.golang.org/p/Eu-aB5rnqVx) y dale click a
 
 ## Funciones
 
-Una función es algo así como un pequeña fabrica. Le das uno o varios valores, sigue un conjunto de instrucciones y al final te regresa algo diferente al valor inicial que le diste.
+Una función es algo así como una pequeña fábrica. Le das uno o varios valores, sigue un conjunto de instrucciones y al final te regresa algo diferente al valor inicial que le diste.
 
 ![Imagen de un gophers y una maquina](../assets/fabrica.jpg)
 
 Estos tres elementos de la función tienen los siguientes nombres:
 
 - **Parámetros**: Son los valores que tu le das que va a usar para crear el resultado final. (Estas son opcionales, hay funciones que no toman ningún valor y solamente te dan un resultado)
-- **Cuerpo**: El cuerpo de la función es el código o pasos que va a tomar nuestra pequeña fabrica para crear algo nuevo.
-- **Retorno**: ¡Este es el producto que creo nuestra fabrica! O en otras palabras, el resultado de la función.
+- **Cuerpo**: El cuerpo de la función es el código o pasos que va a tomar nuestra pequeña fábrica para crear algo nuevo.
+- **Retorno**: ¡Este es el producto que creó nuestra fábrica! O en otras palabras, el resultado de la función.
 
 ![Imagen de las partes de una función](../assets/anatomia-funcion.png)
 
-En la primera linea del ejemplo puedes ver la palabra `func`, esta palabra aparece al principio para decirle a la computadora que estás creando una función.
+En la primera línea del ejemplo puedes ver la palabra `func`, esta palabra aparece al principio para decirle a la computadora que estás creando una función.
 
 Luego viene el nombre de la función. Al igual que las variables, las funciones también tienen un nombre. En este caso nuestra función se llama `suma`, pero le puedes poner lo que tu quieras.
 
-Lo que va dentro de los paréntesis son los parámetros que le vamos a dar a nuestra función. Son variables que les llamamos `primerNumero` y `segundoNumero`. Verás que a lado hay una palabra chistosita `int`, estas tres letras representan la palabra "integer" que en español significa "numero entero". En Go es necesario declarar de que tipo son nuestras variables. En este caso vamos a sumar nuestras variables así que usaremos `int` o "números enteros".
+Lo que va dentro de los paréntesis son los parámetros que le vamos a dar a nuestra función. Son variables que les llamamos `primerNumero` y `segundoNumero`. Verás que a lado hay una palabra chistosita `int`, estas tres letras representan la palabra "integer" que en español significa "número entero". En Go es necesario declarar de que tipo son nuestras variables. En este caso vamos a sumar nuestras variables así que usaremos `int` o "números enteros".
 
 Después de las paréntesis verás que de nuevo sale la palabra `int`. Esto significa que el retorno, o lo que vamos a crear es del tipo `int` o número entero.
 
@@ -81,13 +81,13 @@ func main() {
 }
 ```
 
-Primero verás que se le está asignando a la variable `resultadoFuncion` el valor del resultado de nuestra función `suma` al la que le estamos dando como parámetros los valores `8` y `2`.
+Primero verás que se le está asignando a la variable `resultadoFuncion` el valor del resultado de nuestra función `suma` a la que le estamos dando como parámetros los valores `8` y `2`.
 
-Luego usamos una función que viene incluida en Go que se llama `println`, que representa "print line" que en español significa "imprime linea", esta va a imprimir el valor de nuestra variable `resultadoFuncion`.
+Luego usamos una función que viene incluida en Go que se llama `println`, que representa "print line" que en español significa "imprime línea", esta va a imprimir el valor de nuestra variable `resultadoFuncion`.
 
-Haz click en este [enlace](https://play.golang.org/p/Wj96F9Rib0E) y dale click a "Run" para que veas a nuestra función en acción. !Cambia los valores de los parámetros para que veas que pasa si usas otros números!
+Haz click en este [enlace](https://play.golang.org/p/Wj96F9Rib0E) y dale click a "Run" para que veas nuestra función en acción. !Cambia los valores de los parámetros para que veas que pasa si usas otros números!
 
-Puedes tener cuantas funciones quieras adentro de `main()`. Ahora agregaremos una función que multiplica. Haz click en este [enlace](https://play.golang.org/p/na8x5Y-Re1n) y dale click a "Run".
+Puedes tener cuantas funciones quieras dentro de `main()`. Ahora agregaremos una función que multiplica. Haz click en este [enlace](https://play.golang.org/p/na8x5Y-Re1n) y dale click a "Run".
 
 ## Reto
 
@@ -95,4 +95,4 @@ Ahora que ya tienes las dos funciones de sumar y multiplicar, crea una tercera q
 
 ### Reto extra
 
-¿Que pasa si quieres sumar mas de dos números? Intenta modificar la función que suma a que sume 3 números :thinking:
+¿Qué pasa si quieres sumar más de dos números? Intenta modificar la función que suma a que sume 3 números :thinking:.

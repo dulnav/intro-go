@@ -26,7 +26,7 @@ Para usarlo sigue estas instrucciones:
 Ahora en la parte amarilla cambia la frase "¡Hola a todas!" por lo que tu quieras, como por ejemplo "Me gusta programar". ¡Y ve lo que pasa! Es muy importante que no quites las comillas cuando cambies la frase, por que si no te dará un error.
 - El botón "Share", que significa compartir, te dará un enlace para que puedas compartir tu trabajo. Hazle click al botón "Share" y verás como te sale un enlace al lado del botón que puedes copiar y así compartir tu programa.
 ![Imagen de Go Playground señalando botón "Share"](assets/go-playground-share.png)
-Una vez que copies el enlace que te salió a lado del botón "Share", abre una ventana nueva en tu navegador y verás como se abre nuevamente el programa que hiciste previamente.
+Una vez que copies el enlace que te salió al lado del botón "Share", abre una ventana nueva en tu navegador y verás como se abre nuevamente el programa que hiciste previamente.
 
 ### Crea una calculadora
 
@@ -38,8 +38,8 @@ Haz click [aquí](calculadora/README.md) para empezar el reto de la calculadora.
 
 Gopher significa tuza en inglés. ¡A toda la gente que programa usando Go les llamamos gophers!
 
-Ahora que ya aprendiste sobre variables, funciones y creaste tu calculadora. ¡Tu también eres una programadora de Go!
-Es muy importante que tengas a tu propio gopher para que te acompañe es esta aventura :)
+Ahora que ya aprendiste sobre variables, funciones y creaste tu calculadora. ¡Tú también eres una programadora de Go!
+Es muy importante que tengas a tu propio gopher para que te acompañe en esta aventura :)
 
 Este es un gopher que creamos nosotras. Se llama Panchita.
 
@@ -47,15 +47,8 @@ Este es un gopher que creamos nosotras. Se llama Panchita.
 
 Corre a la página de [gopherize.me](https://gopherize.me/), y crea a tu propio gopher. Aquí te esperará Panchita con su cafesito.
 
-<!-- ### Condicionales y bucles (actividad extra no obligatoria)
-
-Si terminaste los retos anteriores y te quedaste con ganas de aprender más, checa este reto para aprender sobre condicionales y bucles. Al final podrás ver lo que se puede crear con los cuatro elementos que se han aprendido.
-
-Haz click [aquí](arbol/README.md) para comenzar la actividad extra.
--->
-
 ## Enlaces
 
-Si aún quieres aprender mas, visita la [guía oficial de Go](https://gotour-es.appspot.com/#1). Es un poco mas avanzado. ¡Pero no imposible!
+Si aún quieres aprender más, visita la [guía oficial de Go](https://gotour-es.appspot.com/#1). Es un poco más avanzado. ¡Pero no imposible!
 
 _Ilustraciones de [Renee French](http://reneefrench.blogspot.com.au/) y [Ashley McNamara](https://github.com/ashleymcnamara/gophers)_.

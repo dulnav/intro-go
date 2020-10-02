@@ -13,26 +13,25 @@ func construirArbolDeNavidad() {
 	imprimirLinea(longitudEspacios, 1, `*`)
 
 	for i := 1; i <= altura; i++ {
-		longitudCaracter := calcularLongitud(i)
+		longitudCaracteres := calcularLongitud(i)
 
-		imprimirLinea(longitudEspacios-longitudCaracter/2, longitudCaracter, "^")
-
+		imprimirLinea(longitudEspacios-longitudCaracteres/2, longitudCaracteres, "^")
 	}
 
 	imprimirLinea(longitudEspacios, 1, `"`)
 
 }
 
-func imprimirLinea(espacio int, caracter int, elemento string) {
+func imprimirLinea(cantidadEspacios int, cantidadCaracteres int, caracter string) {
 	espacios := ""
 	caracteres := ""
 
-	for i := 0; i < espacio; i++ {
+	for i := 0; i < cantidadEspacios; i++ {
 		espacios += " "
 	}
 
-	for i := 0; i < caracter; i++ {
-		caracteres += elemento
+	for i := 0; i < cantidadCaracteres; i++ {
+		caracteres += caracter
 	}
 
 	println(espacios, caracteres)
