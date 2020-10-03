@@ -68,13 +68,13 @@ Nosotras presionaríamos la tecla de espacio muchas veces y luego presionaríamo
          ^^^
 ```
 
-¡Afortunadamente la computadora piensa igual que nosotras! Creemos una función que teclee las veces que le digamos la barra de espacio y luego teclee las veces que le digamos un carácter que escojamos.
+¡Afortunadamente la computadora piensa igual que nosotras! Creemos una función que teclee las veces que le digamos la barra de espacio y luego teclee las veces que le digamos un caracter que escojamos.
 
 Los parámetros que necesitaremos son los siguientes:
 
 - Número de veces que vamos a teclear un espacio.
-- Número de veces que vamos a teclear un carácter.
-- El carácter que vamos a usar.
+- Número de veces que vamos a teclear un caracter.
+- El caracter que vamos a usar.
 
 Esto lo declararemos de la siguiente manera:
 
@@ -91,7 +91,7 @@ espacios := ""
 caracteres := ""
 ```
 
-Luego escribiremos dos bucles, uno que añadirá un espacio la cantidad de veces que definimos en el parámetro, y otro que hará lo mismo pero con el carácter que definimos en los parámetros.
+Luego escribiremos dos bucles, uno que añadirá un espacio la cantidad de veces que definimos en el parámetro, y otro que hará lo mismo pero con el caracter que definimos en los parámetros.
 
 ```go
 for i := 0; i < cantidadEspacios; i++ {
@@ -152,13 +152,14 @@ func construirArbolDeNavidad() {
 
     for i := 1; i <= altura; i++ {
         longitudCaracteres := calcularLongitud(i)
+        longitudEspaciosArbol := longitudEspacios-longitudCaracteres/2
 
-        imprimirLinea(longitudEspacios-longitudCaracteres/2, longitudCaracteres, "^")
+        imprimirLinea(longitudEspaciosArbol, longitudCaracteres, "^")
     }
 }
 ```
 
-Ve como se forma el triángulo siguiendo este [enlace](https://play.golang.org/p/inPV8lnoKak).
+Ve como se forma el triángulo siguiendo este [enlace](https://play.golang.org/p/WYrh67UxxmJ).
 
 ¡Ya casi queda!
 

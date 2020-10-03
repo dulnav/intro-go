@@ -14,8 +14,9 @@ func construirArbolDeNavidad() {
 
 	for i := 1; i <= altura; i++ {
 		longitudCaracteres := calcularLongitud(i)
+		longitudEspaciosArbol := longitudEspacios - longitudCaracteres/2
 
-		imprimirLinea(longitudEspacios-longitudCaracteres/2, longitudCaracteres, "^")
+		imprimirLinea(longitudEspaciosArbol, longitudCaracteres, "^")
 	}
 
 	imprimirLinea(longitudEspacios, 1, `"`)
