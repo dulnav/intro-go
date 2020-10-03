@@ -122,7 +122,7 @@ func imprimirLinea(cantidadEspacios int, cantidadCaracteres int, caracter string
 }
 ```
 
-Pruébalo tú misma siguiendo este [enlace](https://play.golang.org/p/tRcGtKYgJsl).
+Pruébalo tú misma siguiendo este [enlace](https://play.golang.org/p/g9XWZ-pXtST).
 
 Esta es la base para crear al arbolito, ahora nos toca calcular la cantidad de espacios, caracteres y las veces que vamos a repetir la impresión de las líneas.
 
