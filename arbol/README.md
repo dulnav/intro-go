@@ -175,3 +175,5 @@ Pon la función para la estrellita antes del bucle del triángulo, y pon la func
 ¡Ve que increíble quedó!
 
 ![Imagen de un gopher bailando](../assets/gopher_bailando.gif)
+
+_Inspirado en los talleres de [Go Bridge New Zealand](https://github.com/gobridgenz)._
